@@ -1,0 +1,120 @@
+{
+  "dataset": "talkmoves",
+  "description": "Classroom discourse talk moves from math lessons",
+  "classes": [
+    {
+      "id": "1",
+      "name": "Keeping Everyone Together",
+      "description": "Teacher manages turns, attention, or involvement of the whole class. Includes yes/no checks, reminders, call-and-response, prompting students to be active listeners.",
+      "examples": [
+        "Does everyone see that?",
+        "Are you listening?",
+        "All eyes on me",
+        "Whole class, what is...?",
+        "Put your hands up if you agree"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Getting Students to Relate",
+      "description": "Teacher asks a student to comment on, agree/disagree with, or build on another student's idea. Must go beyond simple repetition of the peer statement.",
+      "examples": [
+        "Do you agree with what she said?",
+        "Can you build on his idea?",
+        "What do you think about what Jamie said?",
+        "Does anyone have a different thought?",
+        "How is your idea similar to Juan's?"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Restating",
+      "description": "Teacher repeats a student's utterance word-for-word, without adding or changing wording.",
+      "examples": [
+        "So you're saying the area is 24",
+        "You think we need to divide by 2",
+        "So the answer is 12"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Pressing for Accuracy",
+      "description": "Teacher requests a short, precise answer, walks through procedures step-by-step, checks definitions or names of mathematical objects.",
+      "examples": [
+        "What is the exact term for that shape?",
+        "Walk us through the first step",
+        "What's the precise definition?",
+        "How do you call that property?",
+        "What number specifically?"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Revoicing",
+      "description": "Teacher repeats a student's idea while adding to it, rephrasing, correcting, or translating into another language or notation.",
+      "examples": [
+        "So you're saying that x represents the length, which is the same as the base",
+        "She noticed the pattern, which means she saw a rule",
+        "His answer was close, but the exact term is 'perimeter'"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Pressing for Reasoning",
+      "description": "Teacher asks for explanations, 'why' questions, connections between ideas, or comparisons of representations.",
+      "examples": [
+        "Why does that work?",
+        "How do you know?",
+        "What's the reason?",
+        "Can you explain your thinking?",
+        "How is this representation different from that one?"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Relating to Another Student",
+      "description": "Student builds on, repeats, questions, or responds directly to a peer's contribution.",
+      "examples": [
+        "I agree with Maria because...",
+        "What Jamie said makes me think...",
+        "I see it differently - let me explain",
+        "Following up on Sam's idea..."
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Asking for More Information",
+      "description": "Student expresses confusion, asks clarifying questions, or requests elaboration.",
+      "examples": [
+        "I don't understand, can you explain again?",
+        "What do you mean by 'that'?",
+        "Could you give an example?",
+        "I'm confused about the second step",
+        "Wait, why did you do that?"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Making a Claim",
+      "description": "Student states an answer, defines a quantity, or asserts a fact without explaining the reasoning.",
+      "examples": [
+        "The answer is 42",
+        "That's a parallelogram",
+        "The area is 24 square units",
+        "That's not correct",
+        "It goes up by 3 each time"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Providing Evidence or Reasoning",
+      "description": "Student justifies a claim, describes multi-step procedures, notices patterns, or compares representations.",
+      "examples": [
+        "It must be 12 because 3 times 4 equals 12",
+        "I know it's a rectangle because it has 4 right angles",
+        "The pattern adds 5 each step so the next is 20",
+        "I used the formula by multiplying length times width"
+      ]
+    }
+  ]
+}

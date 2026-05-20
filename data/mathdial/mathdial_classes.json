@@ -1,0 +1,67 @@
+{
+  "dataset": "mathdial",
+  "description": "Teacher moves and student utterances from one-on-one math tutoring dialogues (MathDial dataset)",
+  "classes": [
+    {
+      "id": "0",
+      "name": "No Specific Move",
+      "description": "Student utterance with no explicit pedagogical move label. Includes answers, explanations, and responses to teacher prompts.",
+      "examples": [
+        "I would have 12 of something.",
+        "She would have 54 cubic feet of water.",
+        "Oh, that makes sense. So one and a half dozen is equal to 30.",
+        "I started by figuring out how many people each serving would feed.",
+        "My error was that I didn't think of the $12 meal as one unit."
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Generic",
+      "description": "Generic teacher move: general encouragement, confirmation, or conversational transition without directing specific reasoning.",
+      "examples": [
+        "Exactly correct!",
+        "Hi, could you please walk me through your solution?",
+        "Good job!",
+        "That is correct.",
+        "Yes, well done."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Focus",
+      "description": "Teacher directs the student's attention to a specific aspect of the problem, a step, or a key piece of information to help them re-examine their work.",
+      "examples": [
+        "Add one dozen + one dozen + half dozen and tell me how much do you get.",
+        "I think you're overcomplicating the problem. Think about the $12 meal as one unit.",
+        "Look at the first two sentences of your solution.",
+        "Focus on what tripling means in this context.",
+        "What was your error?"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Probing",
+      "description": "Teacher asks a probing question to elicit the student's reasoning, uncover misconceptions, or guide them toward the correct solution through inquiry.",
+      "examples": [
+        "If you had 4 of something and tripled that amount, how much would you have?",
+        "So if Nancy triples the 18 cubic feet of water, how much would she have?",
+        "How many people does the $12 meal feed?",
+        "What does it mean to triple something?",
+        "Can you explain why you divided by 8 here?"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Telling",
+      "speaker": "Teacher",
+      "description": "Teacher directly tells the student a fact, the correct answer, or a solution step rather than eliciting it through questioning.",
+      "examples": [
+        "Two and a half dozen is equal to 30.",
+        "The calculation should be either 24+6=30 or (12x2)+(12x0.5)=24+6=30.",
+        "In the first two sentences of your solution, you have correctly calculated that 2 dozens is 24 and half dozen is 6.",
+        "The correct answer is 72.",
+        "You need to multiply the volume by 3/4, not add the water."
+      ]
+    }
+  ]
+}
